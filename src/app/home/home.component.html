@@ -1,0 +1,5 @@
+<div class="container">
+  <app-mobile-component *ngIf="isMobile | async"></app-mobile-component>
+  <app-desktop-component *ngIf="!(isMobile | async)"></app-desktop-component>
+</div>
+

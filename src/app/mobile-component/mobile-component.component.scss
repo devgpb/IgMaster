@@ -1,0 +1,190 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+
+.login-form {
+  background-color: white;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 500px;
+  color: rgb(115, 115, 115);
+
+}
+
+.login-form>div{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  display: block;
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+.button {
+  width: 100%;
+  font-size: 14px;
+  font-weight:bolder;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 149, 246);
+  opacity: .7;
+  border: none;
+}
+
+.forgot-password {
+  color: #003569;
+  cursor: pointer;
+}
+
+
+.or-area{
+  display: flex;
+  flex-direction: row;
+  color: rgb(0,0,0);
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
+.left-{
+  top: .45em;
+  flex-shrink: 1;
+  height: 1px;
+  position: relative;
+  flex-grow: 1;
+  width: 30%;
+  background-color: rgb(219, 219, 219);
+  color: black;
+  direction: ltr;
+}
+
+.or{
+  margin-right: 18px;
+  margin-left: 18px;
+  color: rgb(115, 115, 115);
+}
+
+.right-{
+  top: .45em;
+  flex-shrink: 1;
+  height: 1px;
+  position: relative;
+  flex-grow: 1;
+  width: 30%;
+  background-color: rgb(219, 219, 219);
+  color: black;
+  direction: ltr;
+}
+
+
+
+.fb-bg{
+  position: relative;
+  top: 2px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 2px;
+
+}
+
+.face-icon{
+  color: rgb(3, 140, 232);
+  position: relative;
+  font-size: 13px;
+  left: 2px;
+  top: 1px;
+}
+
+.area-face{
+  border: 0;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0!important;
+  position: relative;
+  text-align: center;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  pointer-events: auto;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: inherit;
+  width: auto;
+  line-height: 18px;
+  background: none;
+}
+
+.face-case{
+  overflow-y: visible;
+  align-content: stretch;
+  background-color: transparent;
+  display: flex;
+  align-items: stretch;
+  align-self: auto;
+  justify-content: center;
+  position: relative;
+  border-radius: 8px;
+  // background-color: #0162c3;
+  background-color: rgb(3, 140, 232);
+  max-width: 90%;
+  padding: 8px 0;
+  margin: 8px auto;
+}
+
+.reset-pass{
+  text-decoration: none;
+  color:rgb(46, 165, 245);
+
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px!important;
+  text-align: center!important;
+}
+
+.high-light{
+  text-decoration: none;
+  color:rgb(33, 160, 245);
+
+}
+
+.buttons>.forgot-pass{
+  width: 100%;
+  text-align: end;
+}
+
+
+.app-case{
+  display: flex;
+  flex-direction: row;
+}
