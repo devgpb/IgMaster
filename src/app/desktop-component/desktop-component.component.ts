@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-desktop-component',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./desktop-component.component.scss']
 })
 export class DesktopComponentComponent {
-
+  faFacebook = faFacebookF
 }

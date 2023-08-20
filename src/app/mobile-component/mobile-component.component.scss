@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -20,20 +20,34 @@ body {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  max-width: 500px;
+  max-width: 400px;
   color: rgb(115, 115, 115);
 
 }
 
 .login-form>div{
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
+.logo-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px; 
+}
 
 .logo {
-  width: 120px;
-  margin-bottom: 20px;
+  // max-width: 80%;
+  // margin-bottom: 20px;
+  // background-size: auto; 
+  width: 200px; 
+
+  // height: 50px; 
+  // display: inline-block; 
+  // background-position: center center; 
+  // background-repeat: no-repeat no-repeat; 
+  // margin-bottom: 40px;
 }
 
 input {
@@ -41,9 +55,32 @@ input {
   display: block;
   max-width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  margin: 5px 0;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
+}
+
+.save-login{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  align-self: flex-start;
+  margin:16px auto !important;
+  font-family: 'Open Sans', sans-serif;
+
+  input{
+    width: 7%;
+    width: 1rem; /* Defina a largura desejada */
+    height: 1rem; 
+  }
+  span{
+    margin-left: 5px;
+    width: 85%;
+    font-size: 0.9rem;
+    text-align: left;
+  }
 }
 
 .button {
@@ -55,8 +92,8 @@ input {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background-color: rgba(0, 149, 246);
-  opacity: .7;
+  background-color: rgba(105, 178, 244);
+  // opacity: .7;
   border: none;
 }
 
@@ -72,6 +109,9 @@ input {
   color: rgb(0,0,0);
   margin-bottom: 20px !important;
   margin-top: 20px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .left-{
@@ -111,15 +151,15 @@ input {
   top: 2px;
   margin-right: 8px;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   background-color: #ffffff;
   border-radius: 2px;
 
 }
 
 .face-icon{
-  color: rgb(3, 140, 232);
+  color: rgb(66, 147, 240);
   position: relative;
   font-size: 13px;
   left: 2px;
@@ -141,32 +181,36 @@ input {
   width: auto;
   line-height: 18px;
   background: none;
+  font-size: 1rem;
+
 }
 
 .face-case{
   overflow-y: visible;
-  align-content: stretch;
+  align-content: center;
   background-color: transparent;
   display: flex;
-  align-items: stretch;
-  align-self: auto;
+  align-items: center;
+  align-self: center;
   justify-content: center;
   position: relative;
   border-radius: 8px;
-  // background-color: #0162c3;
-  background-color: rgb(3, 140, 232);
+  background-color: rgb(4, 149, 247);
   max-width: 90%;
   padding: 8px 0;
   margin: 8px auto;
+  height: 1.5rem;
 }
 
 .reset-pass{
   text-decoration: none;
   color:rgb(46, 165, 245);
-
-  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
   line-height: 16px;
   margin-top: 12px!important;
+  margin-bottom: 12px!important;
+
   text-align: center!important;
 }
 
@@ -179,10 +223,16 @@ input {
 .buttons>.forgot-pass{
   width: 100%;
   text-align: end;
+  margin-bottom: 22px;
 }
 
 
 .app-case{
   display: flex;
   flex-direction: row;
+}
+
+.sign-in{
+  margin-top: 35px !important;
+  font-family: 'Open Sans', sans-serif;
 }
